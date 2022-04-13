@@ -11,12 +11,12 @@ class ClasseAbstrata(metaclass=ABCMeta):
     que vai chamar métodos abstratos a serem implementados pelas classes filhas.
 
     As classes filhas implementam esses métodos que lhe dizem respeito, sem tocar no
-    restante do Template Method, que continua sendo implementado pela classe mãe.
+    restante do template method, que continua sendo implementado pela classe mãe.
     """
 
     def template_method(self) -> None:
         """
-        Aqui vamos criar o esqueleto do código com o Template Method.
+        Aqui vamos criar o esqueleto do código com o template method.
         """
 
         self.operacao_mae1()
@@ -89,7 +89,7 @@ class ClasseConcreta2(ClasseAbstrata):
 
 def cliente(classe_abstrata: ClasseAbstrata) -> None:
     """
-    O código do cliente chama o Template Method para executar o algoritmo. O Cliente
+    O código do cliente chama o template method para executar o algoritmo. O Cliente
     não precisa conhecer a classe concreta de um objeto com o qual trabalha.
     """
 

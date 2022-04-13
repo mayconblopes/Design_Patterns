@@ -1,4 +1,4 @@
-from loja.desconto.descontos import DescontoMaisDe500Reais, DescontoMaisDe5Itens, SemDesconto
+from strategy_e_chain_of_resp.desconto.descontos import DescontoMaisDe500Reais, DescontoMaisDe5Itens, SemDesconto
 
 class CalculadoraDeDescontos:
 

@@ -2,7 +2,7 @@
 como calcular seus impostos """
 
 
-from loja.imposto.imposto_iterface import Imposto
+from strategy_e_chain_of_resp.imposto.imposto_iterface import Imposto
 
 
 class Icms(Imposto):
