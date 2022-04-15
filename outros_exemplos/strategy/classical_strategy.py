@@ -73,5 +73,5 @@ class CalculadoraIss(CalculadoraImposto):
         return self._total_imposto
 
 
-# --------------------------CÓDIGO CLIENTE ABAIXO-------------------------------
+
 
