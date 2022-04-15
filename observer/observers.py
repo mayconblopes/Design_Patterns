@@ -1,3 +1,7 @@
+"""
+Aqui os observadores concretos que implementam a interface Observer são criados
+"""
+
 from observer.observer_interface import Observer
 from observer.publicadora_interface import PublicadoraInterface
 from observer.sujeito1 import Sujeito1
