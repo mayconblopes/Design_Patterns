@@ -75,13 +75,3 @@ class CalculadoraIss(CalculadoraImposto):
 
 # --------------------------CÓDIGO CLIENTE ABAIXO-------------------------------
 
-venda = Venda("Caneta", 1.5, 26)
-icms = CalculadoraIcms(venda).total_imposto
-iss = CalculadoraIss(venda).total_imposto
-
-print(f"O produto comprado foi {venda.produto}.\n"
-      f"A quantidade comprada foi {venda.quantidade}\n"
-      f"O total é de {venda.total_venda()}\n"
-      f"ICMS: {icms}\n"
-      f"ISS: {iss}\n"
-      f"Obrigado pela compra!")
